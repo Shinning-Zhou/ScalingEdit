@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ScalingEdit: Scaling Real-World 3D Object Editing with Self-Supervised Training.">
+    <meta name="theme-color" content="#101010">
+    <title>ScalingEdit · Project Page</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101010'/%3E%3Cpath d='M14 32h36M32 14v36' stroke='%23f26b38' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%23f3f1eb'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css?v=20260925-scroll-reveal">
+    <script src="script.js?v=20260925-scroll-reveal" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span data-project-title>Title TBD</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#video">Video</a>
+          <a href="#demos">Demos</a>
+          <a href="#method">Method</a>
+          <a href="#citation">Citation</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <div class="hero-scroll" id="hero-scroll">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+          <div class="hero-grid" aria-hidden="true">
+            <div class="hero-media-stage">
+              <div class="hero-mosaic-grid">
+              <img src="assets/images/homepage-grid/case-01.jpg" alt=""><img src="assets/images/homepage-grid/case-02.jpg" alt=""><img src="assets/images/homepage-grid/case-03.jpg" alt=""><img src="assets/images/homepage-grid/case-04.jpg" alt=""><img src="assets/images/homepage-grid/case-05.jpg" alt="">
+              <img src="assets/images/homepage-grid/case-06.jpg" alt=""><img src="assets/images/homepage-grid/case-07.jpg" alt=""><img src="assets/images/homepage-grid/case-08.jpg" alt=""><img src="assets/images/homepage-grid/case-09.jpg" alt=""><img src="assets/images/homepage-grid/case-10.jpg" alt="">
+              <img src="assets/images/homepage-grid/case-11.jpg" alt=""><img src="assets/images/homepage-grid/case-12.jpg" alt=""><img src="assets/images/homepage-grid/case-13.jpg" alt=""><img src="assets/images/homepage-grid/case-14.jpg" alt=""><img src="assets/images/homepage-grid/case-15.jpg" alt="">
+              <img src="assets/images/homepage-grid/case-16.jpg" alt=""><img src="assets/images/homepage-grid/case-17.jpg" alt=""><img src="assets/images/homepage-grid/case-18.jpg" alt=""><img src="assets/images/homepage-grid/case-19.jpg" alt=""><img src="assets/images/homepage-grid/case-20.jpg" alt="">
+              <img src="assets/images/homepage-grid/case-21.jpg" alt=""><img src="assets/images/homepage-grid/case-22.jpg" alt=""><img src="assets/images/homepage-grid/case-23.jpg" alt=""><img src="assets/images/homepage-grid/case-24.jpg" alt=""><img src="assets/images/homepage-grid/case-25.jpg" alt="">
+              </div>
+              <div class="hero-reveal-grid">
+              <span class="hero-reveal-cell" data-row="0" data-col="0"></span>
+              <span class="hero-reveal-cell" data-row="0" data-col="1"></span>
+              <span class="hero-reveal-cell" data-row="0" data-col="2"></span>
+              <span class="hero-reveal-cell" data-row="0" data-col="3"></span>
+              <span class="hero-reveal-cell" data-row="0" data-col="4"></span>
+              <span class="hero-reveal-cell" data-row="1" data-col="0"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="1" data-col="1"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="1" data-col="2"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="1" data-col="3"></span>
+              <span class="hero-reveal-cell" data-row="1" data-col="4"></span>
+              <span class="hero-reveal-cell" data-row="2" data-col="0"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="2" data-col="1"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="2" data-col="2"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="2" data-col="3"></span>
+              <span class="hero-reveal-cell" data-row="2" data-col="4"></span>
+              <span class="hero-reveal-cell" data-row="3" data-col="0"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="3" data-col="1"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="3" data-col="2"></span>
+              <span class="hero-reveal-cell hero-reveal-cell--center" data-row="3" data-col="3"></span>
+              <span class="hero-reveal-cell" data-row="3" data-col="4"></span>
+              <span class="hero-reveal-cell" data-row="4" data-col="0"></span>
+              <span class="hero-reveal-cell" data-row="4" data-col="1"></span>
+              <span class="hero-reveal-cell" data-row="4" data-col="2"></span>
+              <span class="hero-reveal-cell" data-row="4" data-col="3"></span>
+              <span class="hero-reveal-cell" data-row="4" data-col="4"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-scrim" aria-hidden="true"></div>
+          <div class="container hero-content">
+            <p class="kicker hero-detail">Research project</p>
+            <h1 id="hero-title" class="hero-title" aria-label="ScalingEdit">
+              <span class="sr-only" data-project-title>ScalingEdit</span>
+              <span class="hero-title-stage" aria-hidden="true"></span>
+            </h1>
+            <div class="hero-support hero-detail">
+              <p class="hero-paper-title">Scaling Real-World 3D Object Editing with Self-Supervised Training</p>
+              <div class="hero-authors" aria-label="Authors">
+                <span>Author names to be confirmed</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-scroll-cue" aria-hidden="true">
+            <span>Scroll to explore</span>
+            <i></i>
+          </div>
+        </section>
+      </div>
+
+      <section class="section" id="video" aria-labelledby="video-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-index">01 / Video</p>
+            <h2 id="video-title">Project video</h2>
+          </div>
+          <div class="media-placeholder media-placeholder--wide" role="img" aria-label="Gray placeholder for the future project video">
+            <span class="placeholder-icon" aria-hidden="true"></span>
+            <strong>Video placeholder</strong>
+            <small>Verified project footage will be inserted here.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ink" id="demos" aria-labelledby="demos-title">
+        <div class="container">
+          <div class="section-heading section-heading--light">
+            <p class="section-index">02 / Demos</p>
+            <h2 id="demos-title">Controlled edits</h2>
+            <p>Each category provides twenty examples. Hold and drag the center handle to compare the input and result.</p>
+          </div>
+          <div class="demo-tabs" role="tablist" aria-label="Editing transformation demos">
+            <button class="demo-tab is-active" id="demo-tab-rotation" type="button" role="tab" aria-selected="true" aria-controls="demo-panel-rotation" tabindex="0" data-demo-tab="rotation">
+              <span>01</span>Rotation
+            </button>
+            <button class="demo-tab" id="demo-tab-scale" type="button" role="tab" aria-selected="false" aria-controls="demo-panel-scale" tabindex="-1" data-demo-tab="scale">
+              <span>02</span>Scale
+            </button>
+            <button class="demo-tab" id="demo-tab-translation" type="button" role="tab" aria-selected="false" aria-controls="demo-panel-translation" tabindex="-1" data-demo-tab="translation">
+              <span>03</span>Translation
+            </button>
+          </div>
+          <div class="demo-panels">
+            <article class="demo-category is-active" id="demo-panel-rotation" role="tabpanel" aria-labelledby="demo-tab-rotation" data-demo-panel="rotation">
+              <div class="demo-category-heading"><span>01</span><h3>Rotation examples</h3><p>Rotate the selected object while preserving its appearance and scene context.</p></div>
+              <div class="demo-slot-grid" data-demo-slots="rotation" data-demo-label="Rotation"></div>
+            </article>
+            <article class="demo-category" id="demo-panel-scale" role="tabpanel" aria-labelledby="demo-tab-scale" data-demo-panel="scale" hidden>
+              <div class="demo-category-heading"><span>02</span><h3>Scale examples</h3><p>Resize the selected object with a controlled scale factor.</p></div>
+              <div class="demo-slot-grid" data-demo-slots="scale" data-demo-label="Scale"></div>
+            </article>
+            <article class="demo-category" id="demo-panel-translation" role="tabpanel" aria-labelledby="demo-tab-translation" data-demo-panel="translation" hidden>
+              <div class="demo-category-heading"><span>03</span><h3>Translation examples</h3><p>Move the selected object to a new position within the same scene.</p></div>
+              <div class="demo-slot-grid" data-demo-slots="translation" data-demo-label="Translation"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="method" aria-labelledby="method-title">
+        <div class="container method-layout">
+          <div class="section-heading section-heading--left">
+            <p class="section-index">03 / Method</p>
+            <h2 id="method-title">Method</h2>
+            <p>The method description and diagram are intentionally left open until the technical content has been verified.</p>
+          </div>
+          <div class="method-placeholder" role="img" aria-label="Gray placeholder for the future method diagram">
+            <div class="method-node">Input</div>
+            <div class="method-line" aria-hidden="true"></div>
+            <div class="method-node method-node--focus">Method</div>
+            <div class="method-line" aria-hidden="true"></div>
+            <div class="method-node">Output</div>
+            <p>Diagram placeholder — no technical claims shown</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent" id="citation" aria-labelledby="citation-title">
+        <div class="container citation-layout">
+          <div class="section-heading section-heading--left">
+            <p class="section-index">04 / Citation</p>
+            <h2 id="citation-title">Citation</h2>
+            <p>Bibliographic details will be added once the project title and publication information are final.</p>
+          </div>
+          <div class="citation-placeholder">
+            <pre><code>@misc{citation_pending,
+  title  = {To be confirmed},
+  author = {To be confirmed},
+  year   = {To be confirmed}
+}</code></pre>
+            <button class="copy-button" type="button" data-copy-citation disabled>Copy citation</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span data-project-title>Title TBD</span>
+        <span>Local project-page skeleton</span>
+      </div>
+    </footer>
+  </body>
+</html>
